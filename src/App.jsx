@@ -98,7 +98,6 @@ function App() {
       <appContext.Provider value={{ language, setLanguage }}>
         <button type="button" onClick={handleThemeSwitch} className="fixed p-2 z-10 right-10 top-5 bg-violet-300 text-lg p-1 dark:bg-orange-300 rounded-md"> {theme === 'dark' ? sun : moon}</button>
         <button type="button" onClick={handleLanguage} className="fixed p-2 z-10 right-20 top-5 bg-violet-300 text-lg p-1 dark:bg-orange-300 rounded-md"> {traductor}</button>
-        {/* <div className={`spacer  bg-white dark:bg-stone-900 dark:bg-stone-900 dark:text-stone-300 text-stone-900 min-h-screen font-inter relative`}> */}
         <div className={`dark:text-stone-300 text-stone-900 min-h-screen font-inter relative`}>
           <div className={`spacer ${botLayer}`}></div>
 
