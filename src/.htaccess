@@ -2,5 +2,5 @@
   RewriteEngine On RewriteBase /subdirectory RewriteRule ^index\.html$ - [L]
   RewriteCond %{REQUEST_FILENAME} !-f RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_FILENAME} !-l RewriteRule . /index.html [L] AddType
-  image/svg+xml .svg .svgz
+  image/svg+xml svg svgz AddEncoding gzip svg
 </IfModule>

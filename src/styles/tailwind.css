@@ -27,9 +27,9 @@ section {
 }
 
 .layer-bot-white {
-  background-image: url("public/assets/layered-peaks-haikei (7).svg");
+  background-image: url("public/static/svg/layered-peaks-haikei (7).svg");
 }
 
 .layer-bot-black {
-  background-image: url("public/assets/layered-peaks-haikei (8).svg");
+  background-image: url("public/static/svg/layered-peaks-haikei (8).svg");
 }
