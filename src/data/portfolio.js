@@ -1,9 +1,9 @@
 export default [
   {
     title: "Buzzle",
-    imgUrl: "/assets/logo chat noir.jpg",
-    stack: ["Tailwind", "Nodejs", "React"],
-    link: "",
+    imgUrl: "/assets/buzzle.png",
+    stack: ["Tailwind", "Nodejs", "React", "Vite"],
+    link: "https://wild-buzzle-app.netlify.app/",
   },
   {
     title: "Developer Portfolio",
@@ -12,9 +12,9 @@ export default [
     link: "",
   },
   {
-    title: "Buzzle",
-    imgUrl: "/assets/logo chat noir.jpg",
-    stack: ["Tailwind", "Vite", "React"],
-    link: "",
+    title: "Audiowizard",
+    imgUrl: "/assets/audiowizard.png",
+    stack: ["Bootstrap", "Typescript", "React"],
+    link: "https://audiowizard.fr/",
   },
 ];

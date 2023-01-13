@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+section {
+  position: relative;
+}
+
+.spacer {
+  position: absolute;
+  aspect-ratio: 900/600;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -2;
+}
+.spacer-unabsolute {
+  aspect-ratio: 900/600;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -2;
+}
+
+.layer-bot-white {
+  background-image: url("public/assets/layered-peaks-haikei (7).svg");
+}
+
+.layer-bot-black {
+  background-image: url("public/assets/layered-peaks-haikei (8).svg");
+}

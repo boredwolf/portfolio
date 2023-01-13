@@ -1,13 +1,21 @@
 import React, { useEffect, useState } from "react"
+import Contact from "./components/Contact"
+import Footer from "./components/Footer"
 import Intro from "./components/Intro"
 import Portfolio from "./components/Portfolio"
-import Footer from "./components/Footer"
 import Timeline from "./components/Timeline"
-import Contact from "./components/Contact"
+import appContext from "./Context"
+import "./styles/tailwind.css"
 
 function App() {
 
   const [theme, setTheme] = useState(null)
+
+  const [language, setLanguage] = useState("FR")
+
+  const [botLayer, setBotLayer] = useState("layer1-white")
+
+
 
   useEffect(() => {
     if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
@@ -21,11 +29,18 @@ function App() {
     setTheme(theme === 'dark' ? 'light' : 'dark')
   }
 
+  const handleLanguage = () => {
+    setLanguage(language === "EN" ? "FR" : "EN")
+  }
+
   useEffect(() => {
     if (theme === 'dark') {
       document.documentElement.classList.add('dark')
+      setBotLayer("layer-bot-black")
+
     } else {
       document.documentElement.classList.remove('dark')
+      setBotLayer("layer-bot-white")
 
     }
 
@@ -65,19 +80,38 @@ function App() {
     </svg>
   );
 
+  const traductor = (
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="white" className="w-6 h-6">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 21l5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 016-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 01-3.827-5.802" />
+    </svg>
+
+
+  )
+
+
+
+
+
 
   return (
     <>
-      <button type="button" onClick={handleThemeSwitch} className="fixed p-2 z-10 right-20 top-4 bg-violet-300 text-lg p-1 dark:bg-orange-300 rounded-md"> {theme === 'dark' ? sun : moon}</button>
-      <div className="bg-white dark:bg-stone-900 dark:text-stone-300 text-stone-900 min-h-screen font-inter ">
-        <div className="max-w-5xl w-11/12 mx-auto">
-          <Intro />
-          <Portfolio />
-          <Timeline />
-          <Contact />
-          <Footer /></div>
+      <appContext.Provider value={{ language, setLanguage }}>
+        <button type="button" onClick={handleThemeSwitch} className="fixed p-2 z-10 right-10 top-5 bg-violet-300 text-lg p-1 dark:bg-orange-300 rounded-md"> {theme === 'dark' ? sun : moon}</button>
+        <button type="button" onClick={handleLanguage} className="fixed p-2 z-10 right-20 top-5 bg-violet-300 text-lg p-1 dark:bg-orange-300 rounded-md"> {traductor}</button>
+        {/* <div className={`spacer  bg-white dark:bg-stone-900 dark:bg-stone-900 dark:text-stone-300 text-stone-900 min-h-screen font-inter relative`}> */}
+        <div className={`dark:text-stone-300 text-stone-900 min-h-screen font-inter relative`}>
+          <div className={`spacer ${botLayer}`}></div>
 
-      </div></>
+          <div className="max-w-5xl w-11/12 mx-auto">
+            <Intro />
+            <Portfolio />
+            <Timeline />
+            <Contact />
+            <Footer />
+          </div>
+        </div>
+      </appContext.Provider>
+    </>
 
   )
 }

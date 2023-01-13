@@ -1,44 +1,23 @@
 export default [
   {
     year: "Today",
-    title: "Web developer",
+    title: "Web developer - Audiowizard",
     duration: "1 year",
     details:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "My first job as a web developer working on the front-end part of the application in an Agile team setting. Our tech stack consists of Typescript, React, Symfony. I've been coding features, refactoring legacy code and maintening the application with hotfixes and bugfixes. I also do SCRUM tasks such as specify and refine tickets for myself and my pairs. ",
   },
   {
-    year: "Today",
-    title: "Web developer",
-    duration: "1 year",
+    year: "Sept 2021 - Fev 2022",
+    title: "Student - Wild Code School",
+    duration: "5 months",
     details:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "I did an intensive bootcamp where I learned the fundamentals of Javascript, HTML, CSS and built 3 client projects in an Agile team setting, our tech stack consisted of React and NodeJS. I officialy graduated as a web and mobile web developer.",
   },
   {
-    year: "Today",
-    title: "Web developer",
-    duration: "1 year",
+    year: "September 5th 2020",
+    title: "First line of code",
+    duration: "",
     details:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-  },
-  {
-    year: "Today",
-    title: "Web developer",
-    duration: "1 year",
-    details:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-  },
-  {
-    year: "Today",
-    title: "Web developer",
-    duration: "1 year",
-    details:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-  },
-  {
-    year: "Today",
-    title: "Web developer",
-    duration: "1 year",
-    details:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "First time I typed some code on my keyboard. I started learning Javascript and Ruby using free courses on internet and decided to start a new journey as a self taught developer.",
   },
 ];
