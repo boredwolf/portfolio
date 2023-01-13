@@ -7,7 +7,7 @@ export default [
   },
   {
     title: "Developer Portfolio",
-    imgUrl: "/assets/logo chat noir.jpg",
+    imgUrl: "/assets/portfolio.png",
     stack: ["React", "Tailwind", "Vite"],
     link: "",
   },
