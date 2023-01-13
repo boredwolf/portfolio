@@ -13,7 +13,7 @@ function App() {
 
   const [language, setLanguage] = useState("FR")
 
-  const [botLayer, setBotLayer] = useState("layer1-white")
+  const [botLayer, setBotLayer] = useState("layer-bot")
 
 
 
@@ -36,11 +36,11 @@ function App() {
   useEffect(() => {
     if (theme === 'dark') {
       document.documentElement.classList.add('dark')
-      setBotLayer("layer-bot-black")
+      setBotLayer("layer-bot-dark")
 
     } else {
       document.documentElement.classList.remove('dark')
-      setBotLayer("layer-bot-white")
+      setBotLayer("layer-bot")
 
     }
 
@@ -98,7 +98,7 @@ function App() {
       <appContext.Provider value={{ language, setLanguage }}>
         <button type="button" onClick={handleThemeSwitch} className="fixed p-2 z-10 right-10 top-5 bg-violet-300 text-lg p-1 dark:bg-orange-300 rounded-md"> {theme === 'dark' ? sun : moon}</button>
         <button type="button" onClick={handleLanguage} className="fixed p-2 z-10 right-20 top-5 bg-violet-300 text-lg p-1 dark:bg-orange-300 rounded-md"> {traductor}</button>
-        <div className={`dark:text-stone-300 text-stone-900 min-h-screen font-inter relative`}>
+        <div className="dark:text-stone-300 text-stone-900 min-h-screen font-inter relative">
           <div className={`spacer ${botLayer}`}></div>
 
           <div className="max-w-5xl w-11/12 mx-auto">

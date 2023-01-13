@@ -2,7 +2,7 @@ import React from 'react';
 
 const PortfolioItem = ({ title, imgUrl, stack, link }) => {
     return (
-        <div className='border-2 border-stone-900 dark:border-white rounded-md overflow-hidden active:scale-[.97] active:duration-75 transition-all hover:scale-[1.07] '>
+        <div className='border-2 border-stone-900 dark:border-white rounded-md overflow-hidden active:scale-[.97] active:duration-75 transition-all hover:scale-[1.07] z-50'>
             <a href={link} target="_blank">
                 <img src={imgUrl} alt="portfolio" className='w-full h-36 md:h-48 object-cover cursor-pointer' />
             </a>
