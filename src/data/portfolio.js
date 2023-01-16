@@ -1,11 +1,10 @@
 export default [
   {
-    title: "Buzzle - 2021",
-    imgUrl: "/assets/buzzle.png",
-    stack: ["Tailwind", "Nodejs", "React", "Vite"],
-    link: "https://wild-buzzle-app.netlify.app/",
+    title: "Developer Portfolio - 2023",
+    imgUrl: "/assets/Screenshot from 2023-01-16 16-47-47.png",
+    stack: ["React", "Tailwind", "Vite"],
+    link: "",
   },
-
   {
     title: "Audiowizard - 2022 ",
     imgUrl: "/assets/audiowizard.png",
@@ -13,9 +12,9 @@ export default [
     link: "https://audiowizard.fr/",
   },
   {
-    title: "Developer Portfolio - 2023",
-    imgUrl: "/assets/portfolio.png",
-    stack: ["React", "Tailwind", "Vite"],
-    link: "",
+    title: "Buzzle - 2021",
+    imgUrl: "/assets/buzzle.png",
+    stack: ["Tailwind", "Nodejs", "React", "Vite"],
+    link: "https://wild-buzzle-app.netlify.app/",
   },
 ];

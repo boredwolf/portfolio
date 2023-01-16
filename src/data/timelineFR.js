@@ -4,7 +4,7 @@ export default [
     title: "Développeur web - Audiowizard",
     duration: "1 an",
     details:
-      "Mon premier job en tant que développeur web, consistant à travailler sur la partie front-end de l'application en méthode Agile. Notre stack technique est composé de React, Typescript et Symfony. Mes missions consistent à coder des features, refactoriser du code legacy et maintenir l'application par l'implémentation d'hotfixes et bugfixes.",
+      "Mon premier job en tant que développeur web, consistant à travailler sur la partie front-end de l'application en méthode Agile. Notre stack technique est composé de React, Typescript et Symfony. Mes missions consistent à développer de nouvelles fonctionalités, refactoriser du code legacy et maintenir l'application par l'implémentation d'hotfixes et bugfixes.",
   },
   {
     year: "Sept 2021 - Fev 2022",

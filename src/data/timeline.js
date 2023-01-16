@@ -4,7 +4,7 @@ export default [
     title: "Web developer - Audiowizard",
     duration: "1 year",
     details:
-      "My first job as a web developer working on the front-end part of the application in an Agile team setting. Our tech stack consists of Typescript, React, Symfony. I've been coding features, refactoring legacy code and maintening the application with hotfixes and bugfixes. I also do SCRUM tasks such as specify and refine tickets for myself and my pairs. ",
+      "My first job as a web developer working on the front-end part of the application in an Agile team setting. Our tech stack consists of Typescript, React, Symfony. I've been developing new functionalities, refactoring legacy code and maintening the application with hotfixes and bugfixes. I also do SCRUM tasks such as specify and refine tickets for myself and my pairs. ",
   },
   {
     year: "Sept 2021 - Fev 2022",

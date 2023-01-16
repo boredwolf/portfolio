@@ -14,7 +14,7 @@ const Intro = () => {
             <div className='text-4xl md:text-7xl mb-1 md:mb-3 font-bold dark:text-white mt-16'>
                 {language === "FR" ? <Typewriter
                     words={["Jouvhomme Félix Développeur web"]}
-                    loop={5}
+                    loop={1}
                     cursor
                     cursorStyle='_'
                     typeSpeed={150}
@@ -22,7 +22,7 @@ const Intro = () => {
                     delaySpeed={1000}
                 /> : <Typewriter
                     words={["Jouvhomme Félix Web developer"]}
-                    loop={5}
+                    loop={1}
                     cursor
                     cursorStyle='_'
                     typeSpeed={150}
