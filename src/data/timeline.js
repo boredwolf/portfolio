@@ -1,6 +1,6 @@
 export default [
   {
-    year: "Today",
+    year: "Fev 2022 - Today",
     title: "Web developer - Audiowizard",
     duration: "1 year",
     details:
